@@ -72,10 +72,5 @@ include "secciones/primera-seccion.php";
 
 
 
-
-
-
-
-
 </body>
 </html>

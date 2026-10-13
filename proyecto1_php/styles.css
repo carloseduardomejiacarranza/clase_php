@@ -1,0 +1,23 @@
+body{
+    font-family: Arial;
+    background:#f4f4f4;
+}
+
+.tarjeta{
+    width:300px;
+    background:white;
+    padding:15px;
+    border-radius:10px;
+    margin:10px;
+    box-shadow:0 0 10px gray;
+}
+
+.tarjeta img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.tarjeta:hover{
+    transform:scale(1.05);
+}
