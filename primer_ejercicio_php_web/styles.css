@@ -1,0 +1,86 @@
+body{
+    background-color: #814697;
+}
+
+.h1{
+    text-align: center;
+    font-size: xx-large;
+
+
+}
+
+
+main {
+    padding: 60px 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+section {
+    border: 1px solid #f4f4f4;
+    border-radius: 15px;
+    padding: 50px 40px;
+}
+
+section.pelicula {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+    border: 1px blue solid;
+
+}
+
+section.pelicula > .item {
+    border: 1px black solid;
+    border-radius: 15px;
+    padding: 25px 15px;
+    position: relative;
+    background-color: #a54759;
+
+}
+
+section.pelicula > .item img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+section.pelicula > .item .category {
+    width: fit-content;
+    padding: 5px 15px;
+    background-color:burlywood;
+    color: white;
+    border-radius: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+section.pelicula > .item .title {
+    font-size: large;
+    font-weight: 600;
+    margin: 20px 0 5px;
+}
+
+section.pelicula > .item .description {
+    font-size: medium;
+    font-weight: 500;
+    margin: 10px 0 0;
+    line-height: 1.4;
+}
+
+
+.formulario {
+    font-size: medium;
+    width: 300px;
+    margin: 50px;
+    padding: 20px;
+    background: #a36767;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
